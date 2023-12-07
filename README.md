@@ -14,8 +14,7 @@ There are some arguments in train_cifar_mean.py, for examples,
 
 - To train watermarked model, set delta = 0.01.
 
-Dataset默认存储文件夹是
-
+Dataset默认存储文件夹是 
 CIFAR10:'/workspace/DATASET/CIFAR10'，
 
 如果需要修改，请去'hat_datasets/configs.py'
