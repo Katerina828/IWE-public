@@ -8,8 +8,15 @@ To train the clean/watermarked model, run `train_cifar_mean.py` by the following
 ```
 python train_cifar_mean.py 
 ```
+There are some arguments in train_cifar_mean.py, for examples,
 
-Use default arguments will be just fine. 
+To train clean models, set delta = 0.0;
 
-Dataset 的默认文件夹是'/workspace/DATASET/CIFAR10'，如果需要修改，请去'hat_datasets/configs.py'
+To train watermarked model, set delta = 0.01.
+
+Dataset默认存储文件夹是
+
+CIFAR10:'/workspace/DATASET/CIFAR10'，
+
+如果需要修改，请去'hat_datasets/configs.py'
 
