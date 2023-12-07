@@ -11,5 +11,5 @@ python train_cifar_mean.py
 
 Use default arguments will be just fine. 
 
-
+Dataset 的默认文件夹是'/workspace/DATASET/CIFAR10'，如果需要修改，请去'hat_datasets/configs.py'
 
