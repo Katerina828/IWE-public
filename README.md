@@ -10,9 +10,9 @@ python train_cifar_mean.py
 ```
 There are some arguments in train_cifar_mean.py, for examples,
 
-To train clean models, set delta = 0.0;
+- To train clean models, set delta = 0.0;
 
-To train watermarked model, set delta = 0.01.
+- To train watermarked model, set delta = 0.01.
 
 Dataset默认存储文件夹是
 
